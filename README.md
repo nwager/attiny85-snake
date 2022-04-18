@@ -25,3 +25,8 @@ Performance-wise, the display only updates a few times per second, so any perfor
 - ATTiny85
 - 8x8 red LED matrix module with a MAX7219 driver chip
 - dual-potentiometer joystick
+
+## Prototype Setup
+![The prototyping phase, complete with a cluttered desk.](/images/attiny85-snake-proto.jpeg)
+
+The ATTiny85 sits on a [Sparkfun Tiny AVR Programmer](https://www.sparkfun.com/products/11801) connected to the matrix and joystick, surrounded by haphazard wires and electronics.
