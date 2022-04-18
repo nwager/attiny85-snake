@@ -40,9 +40,9 @@ In my test, the snake stayed at each length for an average of `3.19s`. This mean
 
 Each game starts at length `3`. Thus, the total energy used in a game played to length `L_max` is:
 
-![E(L_{\text{max}}) = \sum_{n=3}^{L_{\text{max}}} \big( 5 \text{ V} \cdot i(n) \cdot 3.19 \text{ s} \big) \text{ mJ}](https://latex.codecogs.com/svg.image?%7B%5Ccolor%7BWhite%7D%20E(L_%7B%5Ctext%7Bmax%7D%7D)%20=%20%5Csum_%7Bn=3%7D%5E%7BL_%7B%5Ctext%7Bmax%7D%7D%7D%20%5Cbig(%205%20%5Ctext%7B%20V%7D%20%5Ccdot%20i(n)%20%5Ccdot%203.19%20%5Ctext%7B%20s%7D%20%5Cbig)%20%5Ctext%7B%20mJ%7D%7D#gh-dark-mode-only)
-
 ![E(L_{\text{max}}) = \sum_{n=3}^{L_{\text{max}}} \big( 5 \text{ V} \cdot i(n) \cdot 3.19 \text{ s} \big) \text{ mJ}](https://latex.codecogs.com/svg.image?E(L_%7B%5Ctext%7Bmax%7D%7D)%20=%20%5Csum_%7Bn=3%7D%5E%7BL_%7B%5Ctext%7Bmax%7D%7D%7D%20%5Cbig(%205%20%5Ctext%7B%20V%7D%20%5Ccdot%20i(n)%20%5Ccdot%203.19%20%5Ctext%7B%20s%7D%20%5Cbig)%20%5Ctext%7B%20mJ%7D#gh-light-mode-only)
+
+![E(L_{\text{max}}) = \sum_{n=3}^{L_{\text{max}}} \big( 5 \text{ V} \cdot i(n) \cdot 3.19 \text{ s} \big) \text{ mJ}](https://latex.codecogs.com/svg.image?%7B%5Ccolor%7BWhite%7D%20E(L_%7B%5Ctext%7Bmax%7D%7D)%20=%20%5Csum_%7Bn=3%7D%5E%7BL_%7B%5Ctext%7Bmax%7D%7D%7D%20%5Cbig(%205%20%5Ctext%7B%20V%7D%20%5Ccdot%20i(n)%20%5Ccdot%203.19%20%5Ctext%7B%20s%7D%20%5Cbig)%20%5Ctext%7B%20mJ%7D%7D#gh-dark-mode-only)
 
 To get the equivalent mWh, simply divide the value by `3600`. For example, my test game went to length `20`. Plugging this into the equation, we get a value of `6.18 mWh`. A 3V CR2032 battery has a nominal capacity of `660mWh`, so the game would have depleted `0.94%` of the battery (not inclding the energy used to boost the 3V battery to 5V).
 
