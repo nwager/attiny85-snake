@@ -28,15 +28,15 @@ Since the LEDs draw most of the current, I will assume the other electrical comp
 
 Assuming the current draw is linear with respect to the snake length (i.e. the number fo active LEDs), the current can be modeled with the equation:
 
-![i(L) = 2.5 L + 27.5 \text{ mA}](https://latex.codecogs.com/svg.image?i(L)%20=%202.5%20L%20&plus;%2027.5%20%5Ctext%7B%20mA%7D)
+![i(L) = 2.5 L + 27.5 \text{ mA}](https://latex.codecogs.com/png.image?%5Cdpi%7B120%7D%5Cbg%7Bwhite%7Di(L)%20=%202.5%20L%20&plus;%2027.5%20%5Ctext%7B%20mA%7D)
 
 In my test, the snake stayed at each length for an average of `3.19s`. This means that each interval for length `L` draws
 
-![5 \text{V} \cdot i(L) \cdot 3.19 \text{s} \text{ mJ}](https://latex.codecogs.com/svg.image?5%20%5Ctext%7BV%7D%20%5Ccdot%20i(L)%20%5Ccdot%203.19%20%5Ctext%7Bs%7D%20%5Ctext%7B%20mJ%7D).
+![5 \text{V} \cdot i(L) \cdot 3.19 \text{s} \text{ mJ}](https://latex.codecogs.com/png.image?%5Cdpi%7B120%7D%5Cbg%7Bwhite%7D5%20%5Ctext%7BV%7D%20%5Ccdot%20i(L)%20%5Ccdot%203.19%20%5Ctext%7Bs%7D%20%5Ctext%7B%20mJ%7D).
 
 Each game starts at length `3`. Thus, the total energy used in a game played to length `L_max` is:
 
-![E(L_{\text{max}}) = \sum_{n=3}^{L_{\text{max}}} \big( 5 \text{ V} \cdot i(n) \cdot 3.19 \text{ s} \big) \text{ mJ}](https://latex.codecogs.com/svg.image?E(L_%7B%5Ctext%7Bmax%7D%7D)%20=%20%5Csum_%7Bn=3%7D%5E%7BL_%7B%5Ctext%7Bmax%7D%7D%7D%20%5Cbig(%205%20%5Ctext%7B%20V%7D%20%5Ccdot%20i(n)%20%5Ccdot%203.19%20%5Ctext%7B%20s%7D%20%5Cbig)%20%5Ctext%7B%20mJ%7D)
+![E(L_{\text{max}}) = \sum_{n=3}^{L_{\text{max}}} \big( 5 \text{ V} \cdot i(n) \cdot 3.19 \text{ s} \big) \text{ mJ}](https://latex.codecogs.com/png.image?%5Cdpi%7B120%7D%5Cbg%7Bwhite%7DE(L_%7B%5Ctext%7Bmax%7D%7D)%20=%20%5Csum_%7Bn=3%7D%5E%7BL_%7B%5Ctext%7Bmax%7D%7D%7D%20%5Cbig(%205%20%5Ctext%7B%20V%7D%20%5Ccdot%20i(n)%20%5Ccdot%203.19%20%5Ctext%7B%20s%7D%20%5Cbig)%20%5Ctext%7B%20mJ%7D)
 
 To get watt-hours, simply divide the value by `(3600 * 1000)`.
 
